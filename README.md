@@ -83,6 +83,40 @@ This file contains predicted fraud probabilities for each transaction in the tes
 
 ---
 
+---
+
+## Visualizations
+
+### Fraud vs Non-Fraud Distribution
+
+<p align="center">
+  <img src="images/fraud vs non-fraud distribution.png" width="600">
+</p>
+
+This chart shows the imbalance between legitimate and fraudulent transactions in the dataset.
+
+---
+
+### Transaction Amount vs Fraud
+
+<p align="center">
+  <img src="images/box-plot_Transcation Amount vs Fraud.png" width="600">
+</p>
+
+The boxplot compares transaction amounts for fraudulent and non-fraudulent transactions.
+
+---
+
+### ROC Curve Comparison
+
+<p align="center">
+  <img src="images/ROC curve comaprision.png" width="600">
+</p>
+
+The ROC curve compares the performance of Random Forest and XGBoost models.
+
+---
+
 ## Author
 
 **Shahawaj Pasha**
