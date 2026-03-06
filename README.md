@@ -100,7 +100,7 @@ This chart shows the imbalance between legitimate and fraudulent transactions in
 ### Transaction Amount vs Fraud
 
 <p align="center">
-  <img src="images/box-plot_Transcation Amount vs Fraud.png" width="600">
+  <img src="box-plot_Transcation Amount vs Fraud.png" width="600">
 </p>
 
 The boxplot compares transaction amounts for fraudulent and non-fraudulent transactions.
@@ -110,7 +110,7 @@ The boxplot compares transaction amounts for fraudulent and non-fraudulent trans
 ### ROC Curve Comparison
 
 <p align="center">
-  <img src="images/ROC curve comaprision.png" width="600">
+  <img src="ROC curve comaprision.png" width="600">
 </p>
 
 The ROC curve compares the performance of Random Forest and XGBoost models.
