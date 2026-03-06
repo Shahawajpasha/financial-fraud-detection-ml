@@ -100,7 +100,7 @@ This chart shows the imbalance between legitimate and fraudulent transactions in
 ### Transaction Amount vs Fraud
 
 <p align="center">
-  <img src="box-plot_Transcation Amount vs Fraud.png" width="600">
+  <img src="box-plot_Transaction Amount vs Fraud.png" width="600">
 </p>
 
 The boxplot compares transaction amounts for fraudulent and non-fraudulent transactions.
