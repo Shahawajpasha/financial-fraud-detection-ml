@@ -1,43 +1,88 @@
 # Financial Fraud Detection using Machine Learning
 
 ## Project Overview
-This project focuses on detecting fraudulent financial transactions using machine learning models. The dataset contains transaction and identity information, which are processed and used to train classification models.
+This project focuses on detecting fraudulent financial transactions using machine learning techniques. The dataset includes transaction and identity information, which are merged and processed to train classification models capable of identifying fraudulent activity.
+
+Fraud detection is a challenging problem because the number of fraudulent transactions is significantly smaller than legitimate ones, making the dataset highly imbalanced.
+
+---
 
 ## Objectives
-- Detect fraudulent transactions
-- Handle highly imbalanced data
-- Compare machine learning models
+- Detect fraudulent financial transactions accurately  
+- Handle highly imbalanced datasets using resampling techniques  
+- Compare the performance of different machine learning models  
+
+---
 
 ## Dataset
-The dataset contains transaction details and identity information.
+The dataset contains:
 
-Main target variable:
-isFraud
+- **Transaction Data** – Information about each financial transaction  
+- **Identity Data** – Additional user and device identity attributes  
 
-## Steps Performed
-1. Data preprocessing and merging datasets
-2. Handling missing values
-3. Label encoding categorical features
-4. Handling class imbalance using SMOTE
-5. Model training using Random Forest and XGBoost
-6. Model evaluation using ROC-AUC and classification report
-7. Generating predictions for the test dataset
+These datasets are merged using the `TransactionID` field.
 
-## Models Used
-- Random Forest Classifier
-- XGBoost Classifier
+### Target Variable
+
+`isFraud`
+
+- **0 → Legitimate Transaction**
+- **1 → Fraudulent Transaction**
+
+---
+
+## Project Workflow
+
+1. **Data Merging** – Combined transaction and identity datasets  
+2. **Data Preprocessing** – Handled missing values and inconsistent data  
+3. **Feature Encoding** – Applied label encoding for categorical variables  
+4. **Handling Class Imbalance** – Used **SMOTE** to balance fraud and non-fraud samples  
+5. **Model Training** – Trained machine learning models on processed data  
+6. **Model Evaluation** – Evaluated models using ROC-AUC and classification metrics  
+7. **Prediction Generation** – Generated fraud probability predictions for test data  
+
+---
+
+## Machine Learning Models Used
+
+- **Random Forest Classifier**
+- **XGBoost Classifier**
+
+---
 
 ## Evaluation Metrics
-- ROC-AUC Score
-- Precision
-- Recall
-- F1 Score
 
-## Tech Stack
-Python, Pandas, NumPy, Scikit-learn, XGBoost, Matplotlib, Seaborn
+The models were evaluated using:
+
+- ROC-AUC Score  
+- Precision  
+- Recall  
+- F1 Score  
+
+---
+
+## Technologies Used
+
+- Python  
+- Pandas  
+- NumPy  
+- Scikit-learn  
+- XGBoost  
+- Matplotlib  
+- Seaborn  
+
+---
 
 ## Output
-The model generates fraud probability predictions saved as `submission.csv`.
+
+The trained model generates fraud probability predictions saved in:
+
+`submission.csv`
+
+This file contains predicted fraud probabilities for each transaction in the test dataset.
+
+---
 
 ## Author
-Shahawaj Pasha
+
+**Shahawaj Pasha**
