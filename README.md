@@ -71,6 +71,12 @@ The models were evaluated using:
 - Matplotlib  
 - Seaborn  
 
+## Model Performance
+
+| Model | ROC-AUC Score |
+|------|---------------|
+| Random Forest | 0.94 |
+| XGBoost | 0.97 |
 ---
 
 ## Output
