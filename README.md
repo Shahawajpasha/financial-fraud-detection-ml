@@ -90,7 +90,7 @@ This file contains predicted fraud probabilities for each transaction in the tes
 ### Fraud vs Non-Fraud Distribution
 
 <p align="center">
-  <img src="images/fraud vs non-fraud distribution.png" width="600">
+  <img src="fraud vs non-fraud distribution.png" width="600">
 </p>
 
 This chart shows the imbalance between legitimate and fraudulent transactions in the dataset.
